@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tallow+Sans+Pen&display=swap" rel="stylesheet">
+    <title>Sorteio do Amigo Secreto</title>
+    <style>
+        /* Estilização do corpo e fundo */
+        body, html {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('assets/FUNDO.png') no-repeat center center;
+            background-size: cover;
+            text-align: center;
+            font-family: 'Tallow Sans Pen';
+        }
+
+        /* Seção principal do formulário */
+        .input-section {
+            position: absolute;
+            top: 68%; /* Ajustado para dar mais espaço */
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.0); /* Mantendo o fundo transparente */
+            padding: 55px; /* Aumentado o espaço interno */
+            border-radius: 15px;
+            text-align: center;
+            border: none; /* Removendo qualquer borda */
+        }
+
+        /* Estilização do título */
+        .section-title {
+            font-size: 42px; /* Aumentado ainda mais o tamanho da fonte */
+            font-weight: bold;
+            margin-bottom: 25px;
+            color: #9b372c; /* Removendo a borda preta e cor específica */
+        }
+
+        /* Área do campo de entrada */
+        .input-wrapper {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        /* Estilização do campo de entrada */
+        .input-name {
+            padding: 14px;
+            border: none; /* Mantendo sem borda */
+            border-radius: 8px;
+            font-size: 20px;
+            width: 300px; /* Aumentando um pouco mais a largura */
+            background: rgba(255, 255, 255, 0.0); /* Deixando transparente */
+            color: #333;
+        }
+
+        /* Estilização do botão */
+        .button-add, .button-submit {
+            padding: 14px 22px;
+            background: #9b372c;
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
+            margin-top: 15px;
+        }
+
+        /* Efeito ao passar o mouse no botão */
+        .button-add:hover, .button-submit:hover {
+            background: #9b372c;
+        }
+    </style>
+</head>
+<body>
+    <section class="input-section">
+        <h2 class="section-title">Digite o nome dos seus amigos</h2>
+        <div class="input-wrapper">
+            <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
+            <button class="button-add" onclick="adicionarAmigo()">Adicionar</button>
+        </div>
+        <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
+        <ul id="resultado" class="result-list" aria-live="polite"></ul>
+        <button class="button-submit" onclick="sortearAmigoSecreto()">Sortear</button>
+    </section>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
