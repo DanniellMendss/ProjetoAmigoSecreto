@@ -3,16 +3,31 @@
 O meu Amigo Secreto é... 🤫🤭
 
 ##  ⚙️ Indice 
-- <a href="#funcionalidadesdoprojeto"> Funcionalidades do Projeto</a> 
-- <a href="#layout"> Layout</a>
-- <a href="#desenvolvedor"> Desenvolvedor⁣</a> 
-- <a href="#aprendacomojogar"> Aprenda Como Jogar</a> 
-- <a href="#aplicativo-utilizado"> Aplicativo Utilizado</a>
+- Funcionalidades do Projeto 
+- Layout
+- Desenvolvedor
+- Aprenda Como Jogar
+- Aplicativo Utilizado
 
 ## 💻 Funcionalidades do Projeto
-- Insira o nome
+- Projeto: Sorteador de Amigo Secreto
+Descrição Geral
+O "Sorteador de Amigo Secreto" é uma aplicação web simples e interativa desenvolvida em HTML, CSS e JavaScript. O objetivo do projeto é permitir que um grupo de participantes insira seus nomes e, com um clique, o sistema realize um sorteio aleatório, distribuindo os amigos secretos de forma justa e sem repetições.
 
+Funcionalidades
 
+✅ Cadastro de Participantes: Os jogadores podem inserir seus nomes na lista antes do sorteio.
+
+✅ Sorteio Aleatório: Após adicionar todos os nomes, o usuário pode iniciar o sorteio.
+O algoritmo garante que ninguém tire a si mesmo.
+
+✅ Exibição dos Resultados: O resultado do sorteio pode ser exibido de forma discreta, revelando um par por vez.
+Pode ser configurado para exibir todos os pares de uma vez ou permitir que cada jogador descubra seu amigo secreto individualmente.
+
+✅ Experiência do Usuário: Interface simples e intuitiva.
+Design responsivo para uso em dispositivos móveis e desktops.
+
+Esse projeto pode ser útil para eventos familiares, confraternizações de empresas ou amigos que desejam organizar um sorteio de maneira rápida e divertida.
 
 ## 🏜 Layout 
 ![tela de layout](./assets/Foto%20de%20capa%201.jpg)
@@ -21,6 +36,9 @@ O meu Amigo Secreto é... 🤫🤭
 ![desenvolvedor](./assets/eu.jpg)
 
 📱 [linkedin](https://www.linkedin.com/in/daniel-mendes-dev/)
+
+## Linguagen Utilizada 
+![javascript-html-css](./assets/html-css-javascript.png)
 
 
 ## Aprenda como jogar
