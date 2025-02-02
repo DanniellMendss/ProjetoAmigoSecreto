@@ -17,7 +17,6 @@ O "Sorteador de Amigo Secreto" é uma aplicação web simples e interativa desen
 Funcionalidades
 
 ✅ Cadastro de Participantes: Os jogadores podem inserir seus nomes na lista antes do sorteio.
-O sistema permite adicionar e remover participantes conforme necessário.
 
 ✅ Sorteio Aleatório: Após adicionar todos os nomes, o usuário pode iniciar o sorteio.
 O algoritmo garante que ninguém tire a si mesmo.
@@ -26,14 +25,9 @@ O algoritmo garante que ninguém tire a si mesmo.
 Pode ser configurado para exibir todos os pares de uma vez ou permitir que cada jogador descubra seu amigo secreto individualmente.
 
 ✅ Experiência do Usuário: Interface simples e intuitiva.
-Feedback visual e/ou sonoro para indicar o sorteio bem-sucedido.
 Design responsivo para uso em dispositivos móveis e desktops.
 
-✅ Extras Opcionais: Possibilidade de envio do sorteio por e-mail ou WhatsApp.
-Personalização com temas natalinos ou de outras festividades.
-
 Esse projeto pode ser útil para eventos familiares, confraternizações de empresas ou amigos que desejam organizar um sorteio de maneira rápida e divertida.
-
 
 ## 🏜 Layout 
 ![tela de layout](./assets/Foto%20de%20capa%201.jpg)
@@ -42,6 +36,9 @@ Esse projeto pode ser útil para eventos familiares, confraternizações de empr
 ![desenvolvedor](./assets/eu.jpg)
 
 📱 [linkedin](https://www.linkedin.com/in/daniel-mendes-dev/)
+
+## Linguagen Utilizada 
+![javascript-html-css](./assets/html-css-javascript.png)
 
 
 ## Aprenda como jogar
