@@ -38,7 +38,7 @@ Esse projeto pode ser útil para eventos familiares, confraternizações de empr
 📱 [linkedin](https://www.linkedin.com/in/daniel-mendes-dev/)
 
 ## Linguagen Utilizada 
-![javascript-html-css](./assets/html-css-javascript1.png)
+![javascript-html-css](./assets/html-css-javascript2.png)
 
 
 ## Aprenda como jogar
